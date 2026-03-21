@@ -69,3 +69,4 @@ class Program
         // Perform division and return the result
         return dividend / divisor;
     }
+}
