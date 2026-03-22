@@ -13,6 +13,15 @@ void main() {
       printf("%d is even number.", n);
     else 
       printf("%d is odd number.", n);
-      
+
     }
+}
+
+/* using terrinary operator */ */
+    (n % 2 == 0) ? printf("%d is even number.", n) : printf("%d is odd number.", n);
+
+
+
+/* using bitwise operator */
+    (n & 1) ? printf("%d is odd number.", n) : printf("%d is even number.", n);
 }
