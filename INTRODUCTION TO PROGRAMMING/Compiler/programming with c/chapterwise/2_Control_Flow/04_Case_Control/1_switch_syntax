@@ -1,0 +1,10 @@
+switch (integer_expression) {
+    case constant_1:
+        // code
+        break;
+    case constant_2:
+        // code
+        break;
+    default:
+        // code
+}
